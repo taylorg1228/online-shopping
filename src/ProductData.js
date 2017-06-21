@@ -285,10 +285,143 @@ module.exports = {
           price: 2.5,
           inventory: 15
           }
-        ],
-        "maincategory": "Fresh"
-      }
+       },
+      {
+          "item": "Tortilla Chips",
+          id: '28400064057',
+          name: "TOSTITOS Tortilla Chips - Bite Size",
+          description: "TOSTITOS tortilla chips and dips are the life of the party. Whether you're watching the game with friends or throwing a giant backyard barbecue, TOSTITOS has the must-have chips and dips to pump up the fun!",
+          image: "http://www.fritolay.com/images/default-source/blue-bag-image/tostitos-bite-size.png?sfvrsn=2",
+          variants: [
+            {
+            sku: '22',
+            type: '13 oz',
+            nuVal: 1,
+            price: 4.29,
+            inventory: 15
+            }
+          ],
+          "maincategory": "Snack Foods"
+          // "brand": "TOSTITOS",
+          // "subcategory1": "Chips & Pretzels",
+          // "subcategory2": "Tortilla Chips",
+          // "price": 4.29,
+          // "onsale": "no",
+          // "quantity": "13 oz",
+          // "caloriesperserving": 140,
+          // "nuval": "no",
+          // "servingsize": "28 g",
+          // "servingsperpackage": "13"
+          },
+      {
+          "item": "Pop-Tarts",
+          id: '38000311200',
+          name: "Kellogg's Pop-Tarts Frosted Brown Sugar Cinnamon Toaster Pastries 12ct",
+          description: "The very tasty combo of brown sugar and cinnamon comes through in every single bite of frosting, filling and golden crust.",
+          image: "https://images-na.ssl-images-amazon.com/images/I/51boc-xk0bL.jpg",
+          variants: [
+            {
+            sku: '23',
+            type: '12 ct',
+            nuVal: 1,
+            price: 3.14,
+            inventory: 15
+            }
+          ],
+          "maincategory": "Breakfast Foods"
+          // "brand": "Kellogg's",
+          // "subcategory1": "Toaster Pastries",
+          // "subcategory2": "Toaster Pastries",
+          // "price": 3.14,
+          // "onsale": "no",
+          // "quantity": "21 oz",
+          // "caloriesperserving": 210,
+          // "nuval": "no",
+          // "servingsize": "50 g",
+          // "servingsperpackage": "12"
+          },
+      {
+          "item": "Cereal",
+          id: '16000483660',
+          name: "General Mills Honey Nut Cheerios Family Size",
+          description: "The real honey taste you love has always come with oats that are naturally gluten free. We're simply making sure they stay that way.",
+          image: "https://fa74d61d848a20b729bb-0251b36b713060ab3e0e8321940e01ff.ssl.cf2.rackcdn.com/0016000483660_CF_version_type_large.jpeg",
+          variants: [
+            {
+            sku: '24',
+            type: '21.6 oz',
+            nuVal: 1,
+            price: 3.64,
+            inventory: 15
+            }
+          ],
+          "maincategory": "Breakfast Foods"
+          // "brand": "General Mills",
+          // "subcategory1": "Cereal",
+          // "subcategory2": "Box Cereal",
+          // "price": 3.64,
+          // "onsale": "no",
+          // "quantity": "21.6 oz",
+          // "caloriesperserving": 110,
+          // "nuval": "no",
+          // "servingsize": "28 g",
+          // "servingsperpackage": "22"
+           },
+      {
+          "item": "Mac & Cheese",
+          id: '21000658860',
+          name: "Kraft Deluxe Original Cheddar Macaroni & Cheese",
+          description: "Deluxe Taste You Know You'll Love. It's rich. It's creamy. And it's love at first bite for this delicious dish made with real cheese.Heartier elbow macaroni lets you enjoy more cheese with every bite.",
+          image: "https://fa74d61d848a20b729bb-0251b36b713060ab3e0e8321940e01ff.ssl.cf2.rackcdn.com/0021000658860_CF_version_type_large.jpeg",
+          variants: [
+            {
+            sku: '25',
+            type: '14 oz',
+            nuVal: 1,
+            price: 2.48,
+            inventory: 15
+            }
+          ],
+          "maincategory": "Pantry"
+          // "brand": "Kraft",
+          // "subcategory1": "Prepared Meals and Sides",
+          // "subcategory2": "Mac and Cheese",
+          // "price": 2.48,
+          // "onsale": "no",
+          // "quantity": "14 oz",
+          // "caloriesperserving": 320,
+          // "nuval": "no",
+          // "servingsize": "98 g",
+          // "servingsperpackage": "4"
+          },
+      {
+          "item": "Juice",
+          id: '25000055430',
+          name: "Simply Orange with Calcium Pulp Free Orange Juice",
+          description: "none",
+          image: "https://fa74d61d848a20b729bb-0251b36b713060ab3e0e8321940e01ff.ssl.cf2.rackcdn.com/0025000055430_CF_version_type_large.jpeg",
+          variants: [
+            {
+            sku: '26',
+            type: '59 fl oz',
+            nuVal: 1,
+            price: 4.29,
+            inventory: 15
+            }
+          ],
+          "maincategory": "Beverages"
+          // "brand": "Simply Orange",
+          // "subcategory1": "Juice",
+          // "subcategory2": "Orange Juice",
+          // "price": 4.29,
+          // "onsale": "no",
+          // "quantity": "59 fl oz",
+          // "caloriesperserving": 110,
+          // "nuval": "no",
+          // "servingsize": "8 oz",
+          // "servingsperpackage": "7"
     ]));
+         
   }
 
 };
